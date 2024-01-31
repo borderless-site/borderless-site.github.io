@@ -1,0 +1,26 @@
+/* calc(var(--vh, 1vh) * 100) to 100vh */
+
+#background {
+    height: 100vh;
+}
+
+#popup-background {
+    height: 100vh;
+}
+
+.container-item {
+    min-height: 100vh;
+}
+
+.section-container {
+    min-height: 100vh;
+}
+
+#main-container {
+    height: 100vh;
+}
+
+.main-title-image {
+    height: calc(100vh - 100px);
+    min-height: calc(100vh - 100px);
+}

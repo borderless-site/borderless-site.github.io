@@ -1,0 +1,317 @@
+@media screen and (min-width: 767.8px) and (max-width: 1000px) {
+    #notice-container {
+        padding: 100px 25px;
+    }
+    .section-close {
+        margin-top: 0px;
+    }
+    .popup {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #instagram {
+        width: 40px;
+        height: 40px;
+        right: 20px;
+        bottom: 30px;
+    }
+    #youtube {
+        width: 40px;
+        height: 40px;
+        left: 20px;
+        bottom: 30px;
+    }
+    /* event-anchor */
+    #event-link {
+        margin: 15px;
+        width: 90px;
+        height: 35px;
+    }
+    #event-link-anchor {
+        font-size: 14px;
+    }
+    /* lang-selector */
+    #lang-selector {
+        left: 15px;
+        top: 15px;
+    }
+    #lang-selector p {
+        font-size: 16px;
+    }
+    /* sub-menu */
+    #sub-menu {
+        right: 15px;
+        top: 14px;
+        height: 25px;
+    }
+    .sub-menu-item {
+        height: 25px;
+        min-height: 25px;
+    }
+    .sub-menu-item p {
+        font-size: 16px;
+    }
+    /* name-container */
+    #name-container {
+        padding: 20px 0px;
+    }
+    .selected-artist-name {
+        width: auto;
+        max-height: 40px;
+    }
+    /* content-container: main-container */
+    #main-container {
+        padding: 20px;
+    }
+    .main-title-image {
+        width: 100%;
+        height: auto;
+    }
+    /* section */
+    .section-devide-item {
+        height: auto;
+        min-height: calc(var(--vh, 1vh) * 33.3333);
+        max-height: calc(var(--vh, 1vh) * 33.3333);
+    }
+    .section-devide-item:nth-child(2) .section-sort {
+        margin-left: 7.5px;
+    }
+    .section-devide-heading {
+        height: calc(var(--vh, 1vh) * 33.3333);
+    }
+    .section-desc {
+        max-width: 160px;
+    }
+    .section-devide-item .section-sort {
+        max-width: 140px;
+        height: 100%;
+    }
+    .section-body-item {
+        padding: 20px 0px 40px 0px;
+        flex-direction: column;
+    }
+    .section-body-item .section-title.ko {
+        width: 100%;
+    }
+    .section-body-item .content {
+        width: 100%;
+    }
+    .section-title {
+        text-align: center;
+        line-height: 1;
+    }
+    .section-body-item>.section-title {
+        margin-bottom: 20px;
+    }
+    .section-close {
+        padding: 0px;
+        height: 25px;
+    }
+    .close_p {
+        font-size: 16px;
+    }
+    .marquee {
+        height: 25px;
+    }
+    .section-close img {
+        width: 19px;
+        height: 19px;
+    }
+    /* artist */
+    .artist.project-item {
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+    .artist-item {
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+    .artist-item:nth-child(2n+1) {
+        margin-right: 0px;
+    }
+    .artist-item:nth-child(2n) {
+        margin-left: 0px;
+    }
+    .artist-item:nth-last-child(2) {
+        margin-bottom: 20px;
+    }
+    .artist-item:last-child {
+        margin-bottom: 20px;
+    }
+    /* popup */
+    .popup {
+        padding-top: 40px;
+        width: 100%;
+        height: 100%;
+    }
+    .popup .title {
+        margin: 20px 20px 25px 20px;
+        width: calc(100% - 40px);
+        padding: 0px;
+    }
+    .popup .caption {
+        margin: 20px;
+        width: calc(100% - 40px);
+        padding: 0px;
+    }
+    .popup .content {
+        margin: 20px;
+        width: calc(100% - 40px);
+        padding: 0px;
+    }
+    .popup .devide {
+        margin: 25px 20px;
+        width: calc(100% - 40px);
+    }
+    .caption {
+        padding: 0px;
+        font-size: 12px;
+        line-height: 1.4;
+    }
+    .count {
+        height: 35px;
+    }
+    .count span {
+        font-size: 12px;
+    }
+    /* artwork */
+    .img-container img {
+        max-height: 300px;
+    }
+    /* close */
+    .close-btn-container {
+        margin: 15px;
+        width: 14.5px;
+        height: 14.5px;
+    }
+    .close-btn-container img {
+        width: 14.5px;
+        height: 14.5px;
+    }
+    /* button nav */
+    .button-nav div {
+        width: 19px;
+        height: 19px;
+        margin: 15px;
+    }
+    /* refer */
+    .reference {
+        padding: 0px 20px 20px 20px;
+    }
+    .refer-img-container {
+        margin: 0px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .refer-img {
+        /* max-height: 300px; */
+    }
+    .devide {
+        margin: 25px 0px;
+    }
+    /* toggle */
+    .toggle-item {
+        margin: 0px;
+        width: 100%;
+    }
+    .toggle-item .title {
+        margin: 20px;
+        width: calc(100% - 40px);
+        padding: 0px;
+        text-align: left;
+    }
+    .toggle-item .content {
+        margin: 20px;
+        width: calc(100% - 40px);
+        -moz-column-count: 1;
+        -moz-column-gap: 0px;
+        -webkit-column-count: 1;
+        -webkit-column-gap: 0px;
+        column-count: 1;
+        column-gap: 0px;
+        font-size: 14px;
+    }
+    .toggle-item .credit-content {
+        text-align: left;
+    }
+    .toggle-item .devide {
+        margin: 25px 20px;
+        width: calc(100% - 40px);
+    }
+    .toggle-item-img {
+        margin-bottom: 20px;
+    }
+    .research-artwork {
+        margin-top: 30px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    /* notice-container */
+    #notice-container {
+        margin-top: 60px;
+        padding: 40px 20px;
+    }
+    #notice-container .title {
+        margin: 20px 20px 25px 20px;
+        width: calc(100% - 40px);
+        height: auto;
+    }
+    #notice-container .content {
+        margin: 20px;
+        width: calc(100% - 40px);
+        height: auto;
+    }
+    /* footer */
+    #main-footer {
+        margin-top: 0px;
+        padding: 20px;
+    }
+    .footer-info-container {
+        flex-direction: column;
+    }
+    .footer-info {
+        margin-bottom: 23px;
+    }
+    .footer-info {
+        font-size: 12px;
+    }
+    .footer-info:last-child {
+        margin-bottom: 0px;
+    }
+    .logo {
+        margin-top: 50px;
+        padding: 0px;
+        margin-right: 25px;
+    }
+    .logo img {
+        width: 85px !important;
+    }
+    /* option */
+    .title {
+        font-size: 20px;
+    }
+    .content {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    #notice-container .content {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    b {
+        font-size: inherit;
+    }
+    small {
+        font-size: 12px;
+    }
+    .typeface {
+        height: 23px;
+    }
+    .indent {
+        text-indent: 0em;
+        margin-left: 0em;
+    }
+}
